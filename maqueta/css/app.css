@@ -1,0 +1,373 @@
+body,
+html {
+  height: 100%;
+  /* weight: 100%; */
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: rgb(255, 255, 255); */
+}
+
+#main {
+  position: relative;
+  list-style: none;
+  font-family: "Time New Romans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  /* background: #6BBE92; */
+  /* font-weight: 400; */
+  /* font-size: 20; */
+  /* text-transform: uppercase; */
+  display: inline-block;
+  /* padding: 0; */
+  margin: 20px auto;
+  /* left: 50%; */
+}
+
+#main li {
+  /* font-size: 0.8rem; */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  
+  /* min-width: 10px; */
+}
+
+#main li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /* padding: 0px 0px 0px 2px; */
+  padding-left: 1px;
+  padding-right: 5px;
+  text-decoration: none;
+  /* border-left: 2px solid white; */
+  /* border-right: 2px solid white; */
+}
+
+.id-1 a {
+  border-right: 2px solid white;
+}
+
+li {
+  margin: 0;
+}
+
+li img {
+  display: block;
+  color: white;
+  padding: 0px 80px;
+  /* margin: -32px 0 */
+  margin: -18px 0;
+}
+
+/* TODO: arreglar el color de la fuente al seleccionar */
+li a:hover {
+  color: chocolate;
+}
+
+.img-fb a {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.img-ig a {
+  border-right: 2px solid white;
+}
+
+.sub {
+  display: flex;
+  visibility: hidden;
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  left: 0;
+  top: 30px;
+  /* flex: 2 0 auto; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* top: 24px; */
+}
+
+.sub div {
+  -webkit-transform: translate(0, -100%);
+  -moz-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+  transform: translate(0, -100%);
+  -webkit-transition: all 0.5s 0.1s;
+  -moz-transition: all 0.5s 0.1s;
+  -ms-transition: all 0.5s 0.1s;
+  transition: all 0.5s 0.1s;
+  position: relative;
+}
+
+.sub li {
+  display: flex;
+  padding: 1px;
+  width: 100%;
+}
+
+.sub li a {
+  min-width: 60px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+/* TODO: arreglar el color de fuente al seleccionar - se rompió */
+.sub li a:hover {
+  border-left: 2px solid chocolate;
+  border-right: 2px solid chocolate;
+  border-top: 2px solid chocolate;
+  border-bottom: 2px solid chocolate;
+  color: chocolate;
+}
+
+#main li:hover ul div {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  color: chocolate;
+  visibility: visible;
+}
+
+
+.img-log {
+  padding: 5% 12%;
+}
+
+/* ************************
+**** Div por páginas ******
+************************ */
+#grid3-1 {
+  display: grid;
+  height: 800px;
+  grid-template-columns: repeat(6, 1fr);
+  
+}   
+
+#item3-1 {
+  background-color: rgba(0, 253, 34, 0.2) ;
+  grid-column: 1 / 4;
+  grid-template-rows: 400px;
+}
+
+#item3-2 {
+  background-color: rgba(251, 255, 0, 0.2);
+  grid-column: 4 / 8;
+  grid-template-rows: 400px;
+}
+
+
+#grid4-1 {
+  display: grid;
+  height: 800px;
+  grid-template-columns: repeat(6, 1fr);
+  
+}   
+
+#item4-1 {
+  background-color: rgba(0, 253, 34, 0.2) ;
+  grid-column: 1 / 5;
+  grid-template-rows: 400px;
+}
+
+#item4-2 {
+  background-color: rgba(251, 255, 0, 0.2);
+  grid-column: 5 / 8;
+  grid-template-rows: 400px;
+}
+
+
+#grid6-1 {
+  display: grid;
+  height: 800px;
+  grid-template-columns: repeat(6, 1fr);
+  
+}   
+
+#item6-1 {
+  background-color: rgba(0, 253, 34, 0.2) ;
+  grid-column: 1 / 3;
+  grid-template-rows: 400px;
+}
+
+#item6-2 {
+  background-color: rgba(251, 255, 0, 0.2);
+  grid-column: 3 / 8;
+  grid-template-rows: 400px;
+}
+
+
+#grid7-1 {
+  display: grid;
+  height: 800px;
+  grid-template-columns: repeat(6, 1fr);
+  
+}   
+
+#item7-1 {
+  background-color: rgba(0, 253, 34, 0.2) ;
+  grid-column: 1 / 3;
+  grid-template-rows: 400px;
+}
+
+#item7-2 {
+  background-color: rgba(251, 255, 0, 0.2);
+  grid-column: 3 / 8;
+  grid-template-rows: 400px;
+}
+/* ************************
+**** Imagenes de Fondo ****
+************************ */
+.bg {
+  /* The image used */
+  background-image: url("../img/fon1.png");
+
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+
+.bg2 {
+  /* The image used */
+  background-image: url("../img/fon1.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg3 {
+  /* The image used */
+  background-image: url("../img/fon3.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg4 {
+  /* The image used */
+  background-image: url("../img/fon4.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg5 {
+  /* The image used */
+  background-image: url("../img/fon5.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg6 {
+  /* The image used */
+  background-image: url("../img/fon6.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg7 {
+  /* The image used */
+  background-image: url("../img/fon7.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg8 {
+  /* The image used */
+  background-image: url("../img/fon8.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg9 {
+  /* The image used */
+  background-image: url("../img/fon9.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+/* TODO: agregar una capa extra para oscurecer las imagenes de fondo */
+.bg, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7 {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}

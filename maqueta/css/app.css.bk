@@ -1,0 +1,163 @@
+body, 
+html {
+  height: 100%;
+  weight: 100%;
+  margin: 0;
+}
+
+nav{
+  height: auto; 
+  margin: 0 auto; 
+  overflow: hidden;
+  text-align: left;  
+}
+
+ul{
+  float: left;
+  list-style-type: none;
+  padding: 0; 
+  
+  position: relative; 
+  left: 50%;
+}
+
+li {
+  float: left;
+  position: relative;
+  right: 50%;
+
+}
+
+li p {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 4px;
+  text-decoration: none;
+}
+ 
+li a:hover {
+  background-color: #111;
+}
+
+/* nav a {
+    color: #d0cfc5
+} */
+
+/* nav a:hover {
+  text-decoration: none;
+} */
+
+.bg {
+  /* The image used */
+  background-image: url("../img/fon1.png");
+  
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg2 {
+  /* The image used */
+  background-image: url("../img/fon1.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg3 {
+  /* The image used */
+  background-image: url("../img/fon3.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg4 {
+  /* The image used */
+  background-image: url("../img/fon4.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg5 {
+  /* The image used */
+  background-image: url("../img/fon5.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg6 {
+  /* The image used */
+  background-image: url("../img/fon6.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.bg7 {
+  /* The image used */
+  background-image: url("../img/fon7.png");
+
+  /* Full height */
+  height: 100%;
+  /* weight: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
