@@ -14,7 +14,7 @@ Proyecto de maquetación web.
 [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale)
 [![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale?type=dev) -->
 
-### Por hacer (to do)
+### Por hacer (ToDo)
 
 - [ ] Menú de navegación
   - [x] html
